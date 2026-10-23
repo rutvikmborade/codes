@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h2>Online job Application Portal</h2>
+    <h5>Apply for your dream job!</h5>
+    <form>
+      <fieldset>
+        <legend>1. Personal Information</legend>
+        <label>Full Name: </label>
+        <input type="text" placeholder="Enter your full name" />
+        <br />
+        <label>Create Password: </label>
+        <input type="password" />
+        <br />
+        <label>Email Address: </label>
+        <input type="email" placeholder="Enter your Email" />
+        <br />
+        <label>Mobile Number: </label>
+        <input type="tel" placeholder="10-digit mobile number" maxlength="10" />
+        <br />
+        <label>Age:</label>
+        <input type="number" />
+        <br />
+        <label>Date of birth</label>
+        <input type="date" />
+        <br />
+        <label>Gender</label>
+        <br />
+        <input type="radio" />male <input type="radio" checked />Female
+        <input type="radio" />Other
+        <br />
+        <label>Current Address: </label>
+        <br />
+        <textarea name="" id="" placeholder="Enter your address"></textarea>
+        <br />
+        <label for="">Profile photograph:</label>
+        <input type="file" />
+        <br />
+        <label>Portfolio Website</label>
+        <input type="url" placeholder="www.//example.com" />
+        <br /><br /><br />
+      </fieldset>
+      <fieldset>
+        <legend>2.Educational background</legend>
+        <label>Highest Qualification</label>
+        <select>
+          <option>--Select Qualification--</option>
+          <option>SSC</option>
+          <option>HSC</option>
+          <option>DIPLOMA</option>
+          <option>BE/B.TECH</option>
+        </select>
+        <br />
+        <label for="">College Name: </label>
+        <input type="text" placeholder="Enter college name" />
+        <br />
+        <label for="">Graduation Month: </label>
+        <input type="month" placeholder="----,--" />
+        <br />
+        <label for="">Preffered Internship Week:</label>
+        <input type="week" />
+        <br />
+        <label for="Graduation Year: "></label>
+        <input type="number" />
+        <br />
+        <label for="">Certification completed</label>
+        <input type="checkbox" />JAVA <input type="checkbox" />PYTHON
+        <input type="checkbox" />Web Development
+        <br />
+        <label for="">Preferred interview date</label>
+        <input type="datetime-local" />
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>3.Job Preferences</legend>
+        <label>Search Job Role:</label>
+        <input type="search" />
+        <br />
+        <label for="">Select job role:</label>
+        <select>
+          <option>--Select job role--</option>
+          <option>Web developer</option>
+          <option>web designer</option>
+          <option>Software Designer</option>
+          <option>Project Manager</option>
+        </select>
+        <br />
+        <label for="">EMP Type: </label>
+        <br />
+        <input type="radio" />Full Time <input type="radio" />PartTime
+        <input type="radio" />Internship
+        <br />
+        <label for="">Preferred Time</label>
+        <input type="time" />
+        <br />
+        <label>preferred Color: </label>
+        <input type="color" />
+        <br />
+        <label>Coding Confidence(1-10)</label>
+        <input type="range" />
+        <br />
+        <label>Linkedin Profile</label>
+        <input type="url" placeholder="www.//example.com" />
+      </fieldset>
+      <fieldset>
+        <legend>4.Technical Skills and Experience</legend>
+        <label>Year of experience</label>
+        <input type="number" minlength="0" />
+        <br />
+        <label>Preferred Technology</label>
+        <input type="text" />
+        <br />
+        <label>Technical Skills </label>
+        <select multiple>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+          <option>Java</option>
+          <option>Python</option>
+        </select>
+        <br />
+        <label>Upload resume(PDF Only)</label>
+        <input type="file" />
+        <br />
+        <label>Upload Certificates</label>
+        <input type="file" />
+        <br />
+        <label>Why should we hire you</label>
+        <br />
+        <textarea placeholder="Describe your skills and strengths"></textarea>
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>5.Skills Assessment and Application Status</legend>
+        <label>Skills Level: </label>
+        <br />
+        <progress value="80" max="100"></progress>
+        <br />
+        <label>Application Level: </label>
+        <progress value="20" max="100"></progress>
+        <br />
+
+        <label>Application ready: ready for submission</label>
+        <br />
+        <input type="checkbox" />
+        <label>I confirm that the information provided is correct</label>
+      </fieldset>
+
+    </form>
+    <input type="submit" value="Submit Application">
+    <input type="reset" value="Reset Form" >
+    <input type="button" value="Help">
+    <input type="button" value="Preview Application">
+  </body>
+</html>
