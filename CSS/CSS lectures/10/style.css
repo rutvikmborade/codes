@@ -1,0 +1,25 @@
+h1{
+    color : red;
+}
+h1,p{
+    color: aqua;
+}
+.C2W{
+    color: greenyellow;
+}
+.info{
+    color: gray;
+}
+#h1{
+    color:blue;
+}
+#p{
+    color: rgb(4, 13, 76);
+    ;
+}
+#head1{
+    color: darkgoldenrod;
+}
+#para1{
+    color: rgb(3, 65, 47);
+}
