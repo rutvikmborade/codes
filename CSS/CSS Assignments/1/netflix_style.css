@@ -1,0 +1,31 @@
+div{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+#Cap{
+    color: white;
+}
+.tag{
+    color: green;
+    background-color: black;
+    font-weight: 800;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #FFD700;
+}
+h2{
+    color: #E69500;
+}
+p{
+    color: white;
+}
+
+.main{
+    background-color:#2B2C2F;
+    height: 450px;
+    width: 450px;
+}

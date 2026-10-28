@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  color: #0b1a82;
+}
+.main_paregraph {
+  text-align: center;
+  color: #334155;
+}
+.desti {
+  text-align: center;
+  text-decoration: underline;
+  color: green;
+}
+.cards {
+    background-color: aqua;
+    height: 230px;
+    width: 550px;
+    border-radius: 12px;
+}
+h2,h3,h4{
+    color: green;
+}
+.info{
+    color: #334155;
+}
+li{
+    color: #8B1318;
+}
+a{
+    text-decoration: none;
+}
+#foot{
+    text-align: center;
+    color: #8B1318;
+}
+#tip::before{
+    content: "Tip: ";
+    color: green;
+    font-weight: 800;
+}
