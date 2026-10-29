@@ -1,0 +1,6 @@
+p{
+    color: red;
+}
+div> h1,p{
+    color: purple;
+}
