@@ -1,0 +1,12 @@
+.Student{
+    color: blue;
+}
+p{
+    color: red;
+}
+#monitor{
+    color: plum;
+}
+h1,p{
+    color: green;
+}
